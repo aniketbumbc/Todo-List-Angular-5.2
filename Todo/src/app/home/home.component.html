@@ -8,4 +8,13 @@
 <input [value]="myString"/> 
 <input [required]="myBoolean"/>
 
-<button (click)="callMe('I like Mango')">Click Me</button>
+<button (click)="callMe('I like Mango')">Click Me</button> <br>
+
+
+
+<label>To Do Work </label>
+<input [(ngModel)] ="list.work"/>
+<p>{{list.work}}</p>
+<label>Piority Color </label>
+<input [(ngModel)] ="list.belt"/>
+<p>{{list.belt}}</p>
