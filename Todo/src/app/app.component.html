@@ -3,12 +3,13 @@
   <h1>{{title}}</h1>
   <nav>
     <ul>
-      <li>Link</li>
-      <li>Link</li>
+      <li><a routerLink="/Home">Home </a></li>
+      <li><a routerLink="/Directory">Directory</a></li>
     </ul>
   </nav>
 </header>
 <section id="main">
-  <app-home [message] ="message" (onYell)="yell($event)"> Hello there!!!!!! </app-home>
+  <!--<app-home [message] ="message" (onYell)="yell($event)"> Hello there!!!!!! </app-home> -->
+  <router-outlet></router-outlet>
 
 </section>
