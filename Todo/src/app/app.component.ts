@@ -13,4 +13,8 @@ export class AppComponent {
     belt:"red"
   };
   message ="Hello Aniket";
+  
+  yell(e){
+    alert("Hello form Yelling App Component");
+  }
 }
